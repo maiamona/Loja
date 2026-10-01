@@ -1,0 +1,39 @@
+# Dependências
+node_modules/
+**/node_modules/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Angular
+.angular/
+dist/
+**/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Credenciais e chaves
+*.pem
+*.key
+
+# Oracle / arquivos locais
+*.dmp
+*.log
